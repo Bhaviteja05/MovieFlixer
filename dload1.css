@@ -1,0 +1,54 @@
+/* .bgbox{    
+    width: 100%;
+    height: auto;
+    position: relative;
+  } 
+#backdrop{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    z-index: -1;
+} */
+
+.infobox{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+    background-color:rgba(103, 95, 95, 0.738);
+    padding: 50px;
+    gap: 50px;
+    width: 100%;
+    margin: 0 auto 30px auto;  
+}
+
+
+.infotextbox{
+    background-color: rgba(21, 22, 22, 0.675);
+    width: 100%;
+    margin-top: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 40px;
+}
+
+.btndl a{
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+.infobox .btndl{
+    margin: 20px;
+}
+
+.infobox a{
+    font-family: 'poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+
+
+
